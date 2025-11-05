@@ -1,11 +1,10 @@
-// Einfache Login-Seite mit Hinweistext
-function Login() {
+const Login = () => {
   return (
     <section>
-      <h1>Login Seite</h1>
-      <p>Hier kannst du dich später in den Webshop einloggen.</p>
+      <h1>Login</h1>
+      <p>Login-Formular folgt. Bitte später ausfüllen.</p>
     </section>
   );
-}
+};
 
 export default Login;
