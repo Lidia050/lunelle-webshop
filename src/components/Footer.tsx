@@ -1,13 +1,11 @@
 import { Link } from 'react-router-dom';
 
-// Footer-Komponente mit rechtlichen Links
+// Footer-Komponente mit den gewünschten Informationsseiten
 export function Footer() {
   return (
     <footer>
-      {/* Hinweis auf das aktuelle Jahr */}
-      <p>&copy; {new Date().getFullYear()} Lunelle Webshop</p>
-      {/* Einfache Linkliste ohne Styling */}
       <nav>
+        {/* Liste der rechtlichen und informativen Seiten */}
         <ul>
           <li>
             <Link to="/agb">AGB</Link>

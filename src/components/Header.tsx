@@ -1,17 +1,16 @@
 import { Link } from 'react-router-dom';
 
-// Header-Komponente mit Navigation zu allen Seiten
+// Header-Komponente mit Logo links und Navigation rechts
 export function Header() {
   return (
     <header>
-      {/* Logo oder Projektname */}
-      <h1>Lunelle Webshop</h1>
-      {/* Einfache Navigation ohne Styling */}
+      <div>
+        {/* Logo oder Projektname; Link führt zur Startseite */}
+        <Link to="/">Lunelle</Link>
+      </div>
       <nav>
+        {/* Navigation zu den wichtigsten Shop-Seiten */}
         <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
           <li>
             <Link to="/lippenstifte">Lippenstifte</Link>
           </li>

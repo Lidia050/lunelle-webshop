@@ -3,7 +3,10 @@ function Home() {
   return (
     <section>
       <h1>Willkommen im Lunelle Webshop</h1>
-      <p>Hier findest du bald alle Informationen zu unserem Projekt.</p>
+      <p>
+        Wir verkaufen Lippenstifte und Lippenpflege und zeigen hier Schritt für
+        Schritt unser Uni-Projekt.
+      </p>
     </section>
   );
 }
